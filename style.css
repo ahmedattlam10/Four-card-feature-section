@@ -64,6 +64,12 @@ body{
     font-weight: var(--fw-regular);
     padding: 1rem 0.5rem;
 }
+
+.features-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .features{
     width: 100%;
     max-width: 25rem;
@@ -72,22 +78,23 @@ body{
     display: grid;
     box-shadow: 0 10px 15px 0px hsla(0, 0%, 0%, 0.2);
     border-radius: 6px;
+    border-top: 4px solid;
 }
 
 .supervisor{
-    border-top: 4px solid var(--cyan-clr);
+    border-top-color: var(--cyan-clr);
 }
 
 .team-builder{
-    border-top: 4px solid var(--red-clr);
+    border-top-color: var(--red-clr);
 }
 
 .karma{
-    border-top: 4px solid var(--orange-clr);
+    border-top-color: var(--orange-clr);
 }
 
 .calculator{
-    border-top: 4px solid var(--blue-clr);
+    border-top-color: var(--blue-clr);
 }
 
 .feature-description{
